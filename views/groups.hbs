@@ -1,0 +1,30 @@
+<div class="content-wrapper">
+    <section class="content">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Guruh nomi</th>
+                                <th>Boshlanish sanasi</th>
+                                <th>Tugash sanasi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{#each groups}}
+                            <tr>
+                                <td>1</td>
+                                <td>{{this.groupName}}</td>
+                                <td>{{this.start}}</td>
+                                <td>{{this.end}}</td>
+                            </tr>
+                            {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>

@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "userName":"shuhrat",
+        "fullName":"Shuhrat Tuyboyev",
+        "password":"000000"
+    },
+    {
+        "id":2,
+        "userName":"ruslanmedia",
+        "fullName":"Ruslan Rustamov",
+        "password":"123123"
+    }
+]

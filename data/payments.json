@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "groupName": "BE2",
+        "type":"credit",
+        "amount":500000,
+        "created_at": 1690537942,
+        "comment": "BE2 guruhi uchun 1 oylik yechib olindi"
+    },
+    {
+        "id":1,
+        "groupName": "FE2",
+        "type":"debit",
+        "amount":500000,
+        "created_at": 1690537942,
+        "comment": "Naqd pul orqali to'lov qildi"
+    },
+    {
+        "id":2,
+        "groupName": "Flutter",
+        "type":"debit",
+        "amount":600000,
+        "created_at": 1690537942,
+        "comment": "Payme orqali"
+    }
+]

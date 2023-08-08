@@ -1,0 +1,33 @@
+<div class="content-wrapper">
+    <section class="content">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Guruh nomi</th>
+                                <th>Miqdori</th>
+                                <th>Vaqti</th>
+                                <th>Izoh</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{#each payments}}
+                            <tr>
+                                <td>1</td>
+                                <td>{{this.groupName}}</td>
+                                <td>{{type type=this.type}}{{this.amount}}</td>
+                                <td>{{date date=this.created_at}}</td>
+                                <td>{{this.comment}}</td>
+                            </tr>
+                            {{/each}}
+                        </tbody>
+                        
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+ </div
